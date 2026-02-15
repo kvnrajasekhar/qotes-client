@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-primary: var(--bg-primary);
+  --color-bg-secondary: var(--bg-secondary);
+  
+  --color-btn-primary-bg: var(--btn-primary-bg);
+  --color-btn-primary-text: var(--btn-primary-text);
+  
+  --color-btn-secondary-bg: var(--btn-secondary-bg);
+  --color-btn-secondary-text: var(--btn-secondary-text);
+
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+}
+
+:root {
+  /* Light Mode - Clean & Airy */
+  --bg-primary: #FFFFFF;
+  --bg-secondary: #F4F4F5; /* Subtle Gray */
+  
+  --btn-primary-bg: #18181B; /* Dark Zinc */
+  --btn-primary-text: #FFFFFF;
+  
+  --btn-secondary-bg: #E4E4E7; /* Light Zinc */
+  --btn-secondary-text: #27272A;
+  
+  --text-primary: #09090B;
+  --text-secondary: #71717A;
+}
+
+.dark {
+  /* Dark Mode - Matching your Logo */
+  --bg-primary: #000000;
+  --bg-secondary: #09090B;
+  
+  --btn-primary-bg: #FFFFFF;
+  --btn-primary-text: #000000;
+  
+  --btn-secondary-bg: #27272A; /* Dark Zinc */
+  --btn-secondary-text: #E4E4E7;
+  
+  --text-primary: #FAFAFA;
+  --text-secondary: #A1A1AA;
+}
